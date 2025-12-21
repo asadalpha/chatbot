@@ -39,9 +39,11 @@ const getInitialSessionId = (sessions: ChatSession[]): string => {
   return sessions[0].id;
 };
 
+const initialSessions = getInitialSessions();
+
 export const useChatStore = create<ChatState>((set, get) => ({
-  sessions: getInitialSessions(),
-  currentSessionId: getInitialSessionId(getInitialSessions()),
+  sessions: initialSessions,
+  currentSessionId: getInitialSessionId(initialSessions),
   loading: false,
 
   createNewChat: () => {
