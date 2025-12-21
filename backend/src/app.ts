@@ -9,6 +9,13 @@ app.use(cors());
 app.use(express.json({ limit: "1mb" }));
 
 app.use("/chat", chatRoutes);
+
+// add a health check for get
+
+app.get("/", (req, res) => {
+  res.send("Chatbot Backend is Running Correctly");
+});
+
 app.use(errorHandler);
 
 export default app;
