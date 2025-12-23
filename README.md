@@ -114,4 +114,4 @@ The application will be available at `http://localhost:5173`.
 └── README.md
 ```
 
-Built with ❤️ by [Your Name/Asad]
+Built with ❤️ by Asad
