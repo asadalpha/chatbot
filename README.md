@@ -1,19 +1,19 @@
-# 🤖 AI Chatbot
+#  AI Chatbot
 
 A high-performance, full-stack chatbot application featuring a sleek React frontend and a Express backend powered by Google's Gemini AI. 
 
 ---
 
-## ✨ Features
+##  Features
 
--   **🧠 Gemini AI Integration:** Leverages Google's latest `gemini-2.5-flash` or `gemini-2.5-flash-lite` models for fast and intelligent responses.
--   **📚 Knowledge-base Integration:** Inject custom business knowledge or facts via `store.md` to ground AI responses.
--   **💾 Persistent Conversations:** PostgreSQL-backed storage ensures your chat history is saved and retrievable across sessions.
--   **⚡ Real-time Experience:** Smooth typing indicators and streaming-like response handling.
--   **🎨 Premium UI/UX:** Built with React 19, TailwindCSS v4, and Framer Motion for beautiful animations and transitions.
--   **🌗 Dynamic Theming:** Full support for Light and Dark modes with seamless transitions.
--   **📝 Markdown Support:** Rich rendering for code blocks, tables, and formatted text using `react-markdown`.
--   **📱 Fully Responsive:** Optimized for desktop, tablet, and mobile viewing.
+-   ** Gemini AI Integration:** Leverages Google's latest `gemini-2.5-flash` or `gemini-2.5-flash-lite` models for fast and intelligent responses.
+-   ** Knowledge-base Integration:** Inject custom business knowledge or facts via `store.md` to ground AI responses.
+-   ** Persistent Conversations:** PostgreSQL-backed storage ensures your chat history is saved and retrievable across sessions.
+-   ** Real-time Experience:** Smooth typing indicators and streaming-like response handling.
+-   ** Premium UI/UX:** Built with React 19, TailwindCSS v4, and Framer Motion for beautiful animations and transitions.
+-   ** Dynamic Theming:** Full support for Light and Dark modes with seamless transitions.
+-   ** Markdown Support:** Rich rendering for code blocks, tables, and formatted text using `react-markdown`.
+-   ** Fully Responsive:** Optimized for desktop, tablet, and mobile viewing.
 
 ---
 
@@ -92,7 +92,7 @@ The application will be available at `http://localhost:5173`.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 .
