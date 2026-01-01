@@ -10,7 +10,7 @@ app.use(express.json({ limit: "1mb" }));
 
 app.use("/chat", chatRoutes);
 
-// add a health check for get
+// health Check
 
 app.get("/", (req, res) => {
   res.send("Chatbot Backend is Running Correctly");

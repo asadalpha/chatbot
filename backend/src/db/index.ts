@@ -10,6 +10,9 @@ export const pool = new Pool({
   connectionTimeoutMillis: 10000,
 });
 
+// for checking if connection works
+// basically debugging code
+
 (async () => {
   try {
     const res = await pool.query(
